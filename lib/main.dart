@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       create: (context) => sl()..add(GetPostsEvent()),
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: PostsPage()
+        home: PostsPage(),
       ),
     );
   }
